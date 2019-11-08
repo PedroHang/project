@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
+
+h1.title {
+  padding-bottom: 10px;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+h1.title:after {
+  content: '';
+  width: 100px;
+  height: 3px;
+  background: #22c7e3;
+  position: absolute;
+  left: 0px;
+  bottom: -5px;
+}
+
+.bt {
+  border: 2px solid #6fdef1;
+  padding: 5px 10px;
+  border-radius: 6px;
+  color: #22c7e3;
+  text-decoration: none;
+  font-size: 18px;
+  max-width: 300px;
+}
+
+body {
+  background-color: #333646;
+  color: #fff;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.masterPage{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.masterPage .navigation {
+  padding-top: 10px;
+}
+
+.masterPage .navigation div {
+  display: inline-block;
+}
+
+.masterPage .navigation a{
+  color: #fff;
+  border-bottom: 2px solid #565764;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: all .2s ease;
+}
+
+.masterPage .navigation a:hover {
+  border-bottom: 2px solid #22c7e3;
+}
+
+.form{
+  width: 80%;
+}
+
+.form input, .form textarea {
+  display: inline-block;
+  width: 100%;
+  margin: 5px 10px;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #65d8ec;
+  background: #333646;
+  border-radius: 1px;
+  color: white;
+}
